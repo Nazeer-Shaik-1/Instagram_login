@@ -1,0 +1,20 @@
+# .htaccess - Prevent direct access to sensitive files
+
+# Block text and CSV files from direct access
+<FilesMatch "\.(txt|csv)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+# Block access to config or backup files
+<FilesMatch "\.(log|bak|old|config|sql)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+# Optional: Prevent directory listing
+Options -Indexes
+
+# Optional: Error handling
+ErrorDocument 403 /index.html
+ErrorDocument 404 /index.html

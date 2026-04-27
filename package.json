@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "axios": "^1.15.2",
+    "express": "^5.2.1"
+  },
+  "name": "new-instagram-login-page2025",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000I\u0000n\u0000s\u0000t\u0000a\u0000g\u0000r\u0000a\u0000m\u0000_\u0000l\u0000o\u0000g\u0000i\u0000n\u0000\r\u0000 \u0000\r\u0000 \u0000#\u0000 \u0000I\u0000n\u0000s\u0000t\u0000a\u0000g\u0000r\u0000a\u0000m\u0000_\u0000l\u0000o\u0000g\u0000i\u0000n\u0000\r\u0000 \u0000",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazeer-Shaik-1/Instagram_login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazeer-Shaik-1/Instagram_login/issues"
+  },
+  "homepage": "https://github.com/Nazeer-Shaik-1/Instagram_login#readme"
+}
